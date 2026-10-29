@@ -6,7 +6,7 @@
 
 <p align="center">
   计算机专业在读 · 主修大数据方向<br />
-  关注 Linux 与大数据实践，也在持续探索数据流程、开源项目和新技术。
+  喜欢把学习内容做成小工具，也喜欢用交互式页面探索新的表达方式。
 </p>
 
 <p align="center">
@@ -17,21 +17,21 @@
 
 <hr />
 
-<h2 align="center">我在关注什么</h2>
+<h2 align="center">当前关注</h2>
 
 <table align="center" width="100%">
   <tr>
     <td align="center" valign="top" width="33.33%">
-      <strong>Linux · Big Data</strong><br />
-      <sub>Linux 环境、大数据基础与运维相关知识</sub>
+      <strong>🐧 Linux · Big Data</strong><br />
+      <sub>Linux 环境、大数据基础与运维实践</sub>
     </td>
     <td align="center" valign="top" width="33.33%">
-      <strong>数据流程</strong><br />
-      <sub>数据采集、整理、处理与基础分析</sub>
+      <strong>🧰 数据与工具</strong><br />
+      <sub>数据采集、整理、清洗与基础分析</sub>
     </td>
     <td align="center" valign="top" width="33.33%">
-      <strong>新技术</strong><br />
-      <sub>关注新工具、开源项目与技术发展</sub>
+      <strong>✨ 新技术</strong><br />
+      <sub>开源项目、开发工具与技术表达</sub>
     </td>
   </tr>
 </table>
@@ -40,17 +40,19 @@
   比起只记住概念，我更希望通过动手实践理解技术如何解决实际问题，并逐步建立自己的知识体系。
 </p>
 
-<h2 align="center">小项目</h2>
+<h2 align="center">精选项目</h2>
 
 <table align="center" width="100%">
   <tr>
     <td align="center" valign="top" width="50%">
       <h3><a href="https://github.com/LiuliX-Xuan/tidyflow">tidyflow</a></h3>
       <p>CSV / Excel / JSON 数据清洗工具</p>
+      <sub>Python · CLI · pandas</sub>
     </td>
     <td align="center" valign="top" width="50%">
       <h3><a href="https://github.com/LiuliX-Xuan/naiwa-lite">naiwa-lite</a></h3>
-      <p>Three.js 互动 3D 故事</p>
+      <p>围绕奶蛙形象制作的交互式 3D 角色档案</p>
+      <sub>Vite · Three.js · OGL · GSAP</sub>
     </td>
   </tr>
 </table>
