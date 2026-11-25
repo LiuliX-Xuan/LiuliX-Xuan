@@ -1,64 +1,71 @@
 <div align="center">
-  <img src="assets/aurora-header.gif" alt="LiuliX — Computer Science, Big Data and Emerging Tech" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+    <img alt="LiuliX — Computer Science, Big Data & Creative Tech" src="assets/hero-dark.svg" width="100%" />
+  </picture>
 </div>
 
-<h1 align="center">你好，我是 LiuliX 👋</h1>
+<br />
+
+<sub><strong>01 · FOCUS &amp; EXPLORATION</strong></sub>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/focus-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg" />
+    <img alt="当前关注：Linux 大数据基础、数据清洗工具、交互实验与新技术" src="assets/focus-dark.svg" width="100%" />
+  </picture>
+</div>
+
+<br />
+
+<sub><strong>02 · FEATURED PROJECTS</strong></sub>
 
 <p align="center">
-  计算机专业在读 · 主修大数据方向<br />
-  喜欢把学习内容做成小工具，也喜欢用交互式页面探索新的表达方式。
+  <a href="https://github.com/LiuliX-Xuan/tidyflow">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-tidyflow-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-tidyflow-light.svg" />
+      <img alt="tidyflow — CSV / Excel / JSON 链式数据清洗与诊断工具" src="assets/project-tidyflow-dark.svg" width="48.8%" />
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/LiuliX-Xuan/naiwa-lite">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-naiwa-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-naiwa-light.svg" />
+      <img alt="naiwa-lite — 围绕奶蛙形象打造的交互式三维角色档案" src="assets/project-naiwa-dark.svg" width="48.8%" />
+    </picture>
+  </a>
 </p>
 
-<p align="center">
-  <code>Computer Science</code>
-  <code>Big Data</code>
-  <code>Emerging Tech</code>
-</p>
+<br />
 
-<hr />
+<sub><strong>03 · TECH STACK</strong></sub>
 
-<h2 align="center">当前关注</h2>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+    <img alt="技术栈：Python, pandas, FastAPI, SQL, Linux, Shell, Git, Docker, JavaScript, Vite, Three.js, GSAP" src="assets/stack-dark.svg" width="100%" />
+  </picture>
+</div>
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" valign="top" width="33.33%">
-      <strong>🐧 Linux · Big Data</strong><br />
-      <sub>Linux 环境、大数据基础与运维实践</sub>
-    </td>
-    <td align="center" valign="top" width="33.33%">
-      <strong>🧰 数据与工具</strong><br />
-      <sub>数据采集、整理、清洗与基础分析</sub>
-    </td>
-    <td align="center" valign="top" width="33.33%">
-      <strong>✨ 新技术</strong><br />
-      <sub>开源项目、开发工具与技术表达</sub>
-    </td>
-  </tr>
-</table>
+<br />
 
-<p align="center">
-  比起只记住概念，我更希望通过动手实践理解技术如何解决实际问题，并逐步建立自己的知识体系。
-</p>
+<sub><strong>04 · CONTRIBUTION ACTIVITY</strong></sub>
 
-<h2 align="center">精选项目</h2>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/LiuliX-Xuan/LiuliX-Xuan/output/github-contribution-grid-snake.gif" alt="GitHub Contribution Snake" width="100%" />
+</div>
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <h3><a href="https://github.com/LiuliX-Xuan/tidyflow">tidyflow</a></h3>
-      <p>CSV / Excel / JSON 数据清洗工具</p>
-      <sub>Python · CLI · pandas</sub>
-    </td>
-    <td align="center" valign="top" width="50%">
-      <h3><a href="https://github.com/LiuliX-Xuan/naiwa-lite">naiwa-lite</a></h3>
-      <p>围绕奶蛙形象制作的交互式 3D 角色档案</p>
-      <sub>Vite · Three.js · OGL · GSAP</sub>
-    </td>
-  </tr>
-</table>
+<br />
 
-<hr />
-
-<p align="center">
-  <em>Build small · Learn deeply · Keep exploring</em>
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
+    <img alt="Build small · Learn deeply · Keep exploring" src="assets/footer-dark.svg" width="100%" />
+  </picture>
+</div>

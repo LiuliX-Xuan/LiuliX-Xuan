@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="272" viewBox="0 0 900 272" fill="none">
+  <defs>
+    <clipPath id="hero-clip">
+      <rect x="0.5" y="0.5" width="899" height="271" rx="20"/>
+    </clipPath>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="900" y2="272" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8faff"/>
+      <stop offset="55%" stop-color="#f1f4ff"/>
+      <stop offset="100%" stop-color="#eef6ff"/>
+    </linearGradient>
+    <linearGradient id="border-grad" x1="0" y1="0" x2="900" y2="272" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="55%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <radialGradient id="orb-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon-grad" x1="480" y1="20" x2="880" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#6d28d9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="rgba(99, 102, 241, 0.065)"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes drift {
+      0%, 100% { transform: translate(0px, 0px); }
+      50% { transform: translate(-10px, 6px); }
+    }
+    .pulse-dot { animation: pulse 2.8s ease-in-out infinite; }
+    .prism-group { animation: floatSlow 6.5s ease-in-out infinite; }
+    .aurora-orb { animation: drift 9s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#hero-clip)">
+    <rect width="900" height="272" fill="url(#bg-grad)"/>
+    <rect width="900" height="272" fill="url(#dot-grid)"/>
+
+    <!-- Ambient Aurora Glaze Orbs -->
+    <g class="aurora-orb">
+      <ellipse cx="735" cy="110" rx="220" ry="155" fill="url(#orb-violet)"/>
+      <ellipse cx="640" cy="215" rx="190" ry="120" fill="url(#orb-cyan)"/>
+      <ellipse cx="140" cy="30" rx="180" ry="110" fill="url(#orb-iris)"/>
+    </g>
+
+    <!-- Delicate Aurora Light Curves -->
+    <path d="M460 272 C 560 190, 665 215, 765 110 C 820 55, 865 35, 910 22"
+          stroke="url(#ribbon-grad)" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M510 272 C 615 205, 710 230, 815 135 C 855 98, 882 82, 910 72"
+          stroke="url(#ribbon-grad)" stroke-width="1" fill="none" opacity="0.45"/>
+
+    <!-- Top Edge Specular Highlight -->
+    <line x1="120" y1="1" x2="520" y2="1" stroke="url(#name-grad)" stroke-width="1.5" opacity="0.55"/>
+
+    <!-- Right-side Geometric Glaze Prism & Data Constellation -->
+    <g transform="translate(742, 136)">
+      <g class="prism-group">
+      <!-- Concentric Orbital Rings -->
+      <ellipse cx="0" cy="0" rx="94" ry="42" transform="rotate(-24)" stroke="rgba(99, 102, 241, 0.25)" stroke-width="1" stroke-dasharray="3 4"/>
+      <ellipse cx="0" cy="0" rx="72" ry="72" stroke="rgba(99, 102, 241, 0.25)" stroke-width="0.9"/>
+      <circle cx="0" cy="0" r="106" stroke="rgba(99, 102, 241, 0.25)" stroke-width="0.6" opacity="0.55"/>
+
+      <!-- Layered Faceted Glaze Prism -->
+      <polygon points="0,-60 52,-18 32,52 -32,52 -52,-18" fill="rgba(79, 70, 229, 0.10)" stroke="rgba(79, 70, 229, 0.48)" stroke-width="1.1"/>
+      <polygon points="0,-60 52,-18 0,6 -52,-18" fill="rgba(14, 165, 233, 0.14)" stroke="rgba(79, 70, 229, 0.48)" stroke-width="1"/>
+      <polygon points="0,-60 52,-18 32,52 0,6" fill="rgba(124, 58, 237, 0.14)" stroke="rgba(79, 70, 229, 0.48)" stroke-width="0.9"/>
+      <polygon points="0,6 32,52 -32,52" fill="rgba(14, 165, 233, 0.14)" stroke="rgba(79, 70, 229, 0.48)" stroke-width="0.9" opacity="0.75"/>
+      <!-- Inner Crystal Core -->
+      <polygon points="0,-28 24,-6 0,24 -24,-6" fill="#0284c7" opacity="0.16" stroke="#0284c7" stroke-width="1"/>
+      <circle cx="0" cy="-2" r="4" fill="#0284c7"/>
+
+      <!-- Constellation Nodes -->
+      <circle cx="-80" cy="-34" r="3.5" fill="#0284c7"/>
+      <circle cx="84" cy="24" r="3.5" fill="#6d28d9"/>
+      <circle cx="62" cy="-58" r="2.5" fill="#0d9488"/>
+      <circle cx="-64" cy="54" r="2.5" fill="#6d28d9" opacity="0.8"/>
+      <line x1="-80" y1="-34" x2="-52" y2="-18" stroke="#0284c7" stroke-width="0.8" opacity="0.5"/>
+      <line x1="84" y1="24" x2="32" y2="52" stroke="#6d28d9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="62" y1="-58" x2="0" y2="-60" stroke="#0d9488" stroke-width="0.8" opacity="0.45"/>
+      </g>
+    </g>
+
+    <!-- Left Editorial Content -->
+    <!-- Eyebrow Badge -->
+    <rect x="42" y="34" width="218" height="26" rx="13" fill="rgba(14, 165, 233, 0.09)" stroke="rgba(14, 165, 233, 0.28)" stroke-width="1"/>
+    <circle class="pulse-dot" cx="58" cy="47" r="3.5" fill="#0284c7"/>
+    <text x="70" y="51" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="0.9" fill="#0369a1">LIULIX · CS &amp; BIG DATA</text>
+
+    <!-- Display Heading -->
+    <text x="42" y="108" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="36" font-weight="700" letter-spacing="-0.4" fill="#0f172a">你好，我是 <tspan fill="url(#name-grad)">LiuliX</tspan></text>
+
+    <!-- Bio Lines -->
+    <text x="42" y="146" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="15.5" font-weight="500" fill="#475569">计算机专业在读 · 主修大数据方向</text>
+    <text x="42" y="174" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="14.5" font-weight="400" fill="#64748b">把学习沉淀为实用小工具，也用交互式页面探索新的技术表达。</text>
+
+    <!-- Subtle Separator -->
+    <line x1="42" y1="196" x2="548" y2="196" stroke="rgba(99, 102, 241, 0.14)" stroke-width="1"/>
+
+    <!-- Minimal Focus Pills -->
+    <rect x="42" y="212" width="134" height="26" rx="13" fill="rgba(15, 23, 42, 0.035)" stroke="rgba(100, 116, 139, 0.22)" stroke-width="1"/>
+  <circle cx="54" cy="225.0" r="3" fill="#0284c7"/>
+  <text x="63.0" y="228.7" text-anchor="start" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="500" fill="#334155">Data Engineering</text>
+  <rect x="184" y="212" width="134" height="26" rx="13" fill="rgba(15, 23, 42, 0.035)" stroke="rgba(100, 116, 139, 0.22)" stroke-width="1"/>
+  <circle cx="196" cy="225.0" r="3" fill="#6d28d9"/>
+  <text x="205.0" y="228.7" text-anchor="start" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="500" fill="#334155">CLI &amp; Automation</text>
+  <rect x="326" y="212" width="121" height="26" rx="13" fill="rgba(15, 23, 42, 0.035)" stroke="rgba(100, 116, 139, 0.22)" stroke-width="1"/>
+  <circle cx="338" cy="225.0" r="3" fill="#0d9488"/>
+  <text x="347.0" y="228.7" text-anchor="start" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="500" fill="#334155">Interactive 3D</text>
+  <rect x="455" y="212" width="63" height="26" rx="13" fill="rgba(15, 23, 42, 0.035)" stroke="rgba(100, 116, 139, 0.22)" stroke-width="1"/>
+  <circle cx="467" cy="225.0" r="3" fill="#4f46e5"/>
+  <text x="476.0" y="228.7" text-anchor="start" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="500" fill="#334155">Linux</text>
+  </g>
+
+  <!-- Outer Glass Rim -->
+  <rect x="0.5" y="0.5" width="899" height="271" rx="20" stroke="url(#border-grad)" stroke-width="1"/>
+</svg>
