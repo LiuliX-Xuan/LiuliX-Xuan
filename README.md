@@ -54,14 +54,6 @@
 
 <br />
 
-<sub><strong>04 · CONTRIBUTION ACTIVITY</strong></sub>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/LiuliX-Xuan/LiuliX-Xuan/output/github-contribution-grid-snake.gif" alt="GitHub Contribution Snake" width="100%" />
-</div>
-
-<br />
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" />
